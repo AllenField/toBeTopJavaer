@@ -1,21 +1,6 @@
-[![](http://www.hollischuang.com/wp-content/uploads/2018/10/Hollis.png)](https://www.hollischuang.com)
-
 ## To Be Top Javaer  -  Java工程师成神之路
 
-![](https://img.shields.io/badge/version-v2.0.0-green.svg) ![](https://img.shields.io/badge/author-Hollis-yellow.svg) ![](https://img.shields.io/badge/license-GPL-blue.svg)
-
-
-| 主要版本 | 更新时间       | 备注             |
-| ---- | ---------- | -------------- |
-| v1.0 | 2015-08-01 | 首次发布           |
-| v1.1 | 2018-03-12 | 增加新技术知识、完善知识体系 |
-| v2.0 | 2019-02-19 | 结构调整，更适合从入门到精通；<br>进一步完善知识体系； <br>新技术补充；|
-
-欢迎关注[Java之道]公众号，最新内容均会在该公众号中同步发出！
-![](pics/wechat.png)
-
-
-[全套思维导图](/mind-map.md)
+![](https://img.shields.io/badge/version-v2.0.0-green.svg) ![](https://img.shields.io/badge/license-GPL-blue.svg)
 
 ## 一、基础篇
 
@@ -23,71 +8,73 @@
 
 #### 什么是面向对象
 
-[面向对象、面向过程](/basics/java-basic/object-oriented-vs-procedure-oriented.md)
+面向对象、面向过程
 
-[面向对象的三大基本特征](/basics/java-basic/characteristics.md)和[五大基本原则](/basics/java-basic/principle.md)
+面向对象的三大基本特征和五大基本原则
 
 #### 平台无关性
 
-[Java如何实现的平台无关性的](/basics/java-basic/platform-independent.md)
+Java如何实现的平台无关性的
 
-[JVM还支持哪些语言（Kotlin、Groovy、JRuby、Jython、Scala）](/basics/java-basic/jvm-language.md)
+JVM还支持哪些语言（Kotlin、Groovy、JRuby、Jython、Scala）
 
 #### 值传递
 
-[值传递、引用传递](/basics/java-basic/java-pass-by.md)
+值传递、引用传递
 
-[为什么说Java中只有值传递](/basics/java-basic/java-pass-by.md)
+为什么说Java中只有值传递
 
 #### 封装、继承、多态
 
-[什么是多态](/basics/java-basic/polymorphism.md)、[方法重写与重载](/basics/java-basic/overloading-vs-overriding.md)
+什么是多态
+
+方法重写与重载
 
 Java的继承与实现
 
-[Java的继承与组合](/basics/java-basic/inheritance-composition.md)
+Java的继承与组合
 
-[构造函数与默认构造函数](/basics/java-basic/constructor.md)
+构造函数与默认构造函数
 
-[类变量、成员变量和局部变量](/basics/java-basic/variable.md)
+类变量、成员变量和局部变量
 
-[成员变量和方法作用域](/basics/java-basic/scope.md)
+成员变量和方法作用域
 
 ### Java基础知识
 
 #### 基本数据类型
 
-[7种基本数据类型：整型、浮点型、布尔型、字符型](/basics/java-basic/basic-data-types.md)
+7种基本数据类型：整型、浮点型、布尔型、字符型
 
-[整型中byte、short、int、long的取值范围](/basics/java-basic/integer-scope.md)
+整型中byte、short、int、long的取值范围
 
-[什么是浮点型？](/basics/java-basic/float.md)
+什么是浮点型？
 
-[什么是单精度和双精度？](/basics/java-basic/single-double-float.md)
+什么是单精度和双精度？
 
-[为什么不能用浮点型表示金额？](/basics/java-basic/float-amount.md)
+为什么不能用浮点型表示金额？
 
 #### 自动拆装箱
 
-[什么是包装类型、什么是基本类型、什么是自动拆装箱](/basics/java-basic/boxing-unboxing.md)
+什么是包装类型、什么是基本类型、什么是自动拆装箱
 
-[Integer的缓存机制](/basics/java-basic/integer-cache.md)
+Integer的缓存机制
 
 #### String
 
-[字符串的不可变性](/basics/java-basic/final-string.md)
+字符串的不可变性
 
-[JDK 6和JDK 7中substring的原理及区别](/basics/java-basic/substring.md)
+JDK 6和JDK 7中substring的原理及区别
 
 replaceFirst、replaceAll、replace区别、
 
-[String对“+”的重载](/basics/java-basic/string-append.md)
+String对“+”的重载
 
-[字符串拼接的几种方式和区别](/basics/java-basic/string-concat.md)
+字符串拼接的几种方式和区别
 
-[String.valueOf和Integer.toString的区别](/basics/java-basic/value-of-vs-to-string.md)
+String.valueOf和Integer.toString的区别
 
-[switch对String的支持](/basics/java-basic/switch-string.md)
+switch对String的支持
 
 字符串池、常量池（运行时常量池、Class常量池）、intern
 
@@ -99,87 +86,115 @@ transient、instanceof、volatile、synchronized、final、static、const 原理
 
 常用集合类的使用
 
-[ArrayList和LinkedList和Vector的区别](/basics/java-basic/arraylist-vs-linkedlist-vs-vector.md) 
+ArrayList和LinkedList和Vector的区别
 
-[SynchronizedList和Vector的区别](/basics/java-basic/synchronizedlist-vector.md)、
+SynchronizedList和Vector的区别
 
-[HashMap、HashTable、ConcurrentHashMap区别](/basics/java-basic/HashMap-HashTable-ConcurrentHashMap.md)
+HashMap、HashTable、ConcurrentHashMap区别
 
-[Set和List区别？](/basics/java-basic/set-vs-list.md)
+Set和List区别？
 
-[Set如何保证元素不重复?](/basics/java-basic/set-repetition.md)
+Set如何保证元素不重复?
 
-[Java 8中stream相关用法](/basics/java-basic/stream.md)、
+Java 8中stream相关用法
 
-apache集合处理工具类的使用、
+apache集合处理工具类的使用
 
 不同版本的JDK中HashMap的实现的区别以及原因
 
-[Collection和Collections区别](/basics/java-basic/Collection-vs-Collections.md)
+Collection和Collections区别
 
-[Arrays.asList获得的List使用时需要注意什么](/basics/java-basic/Arrays-asList.md)
+Arrays.asList获得的List使用时需要注意什么
 
-[Enumeration和Iterator区别](/basics/java-basic/Enumeration-vs-Iterator.md)
+Enumeration和Iterator区别
 
-[fail-fast 和 fail-safe](/basics/java-basic/fail-fast-vs-fail-safe.md)
+fail-fast 和 fail-safe
 
-[CopyOnWriteArrayList](/basics/java-basic/CopyOnWriteArrayList.md)
+CopyOnWriteArrayList
 
-[ConcurrentSkipListMap](/basics/java-basic/ConcurrentSkipListMap.md)
+ConcurrentSkipListMap
 
 #### 枚举
 
-[枚举的用法](/basics/java-basic/enum-usage.md)
+枚举的用法
 
-[枚举的实现](/basics/java-basic/enum-impl.md)
+枚举的实现
 
-[枚举与单例](/basics/java-basic/enum-singleton.md)、Enum类
+枚举与单例
 
-[Java枚举如何比较](/basics/java-basic/enum-compare.md)
+Java枚举如何比较
 
-[switch对枚举的支持](/basics/java-basic/enum-switch.md)
+switch对枚举的支持
 
-[枚举的序列化如何实现](/basics/java-basic/enum-serializable.md)
+枚举的序列化如何实现
 
-[枚举的线程安全性问题](/basics/java-basic/enum-thread-safe.md)
+枚举的线程安全性问题
 
 #### IO
 
-[字符流、字节流](/basics/java-basic/byte-stream-vs-character-stream.md)、[输入流、输出流](/basics/java-basic/input-stream-vs-output-stream.md)
+字符流、字节流
 
-[同步、异步](/basics/java-basic/synchronized-vs-asynchronization.md)、[阻塞、非阻塞](/basics/java-basic/block-vs-non-blocking.md)、[Linux 5种IO模型](/basics/java-basic/linux-io.md)
+输入流、输出流
 
-[BIO、NIO和AIO的区别、三种IO的用法与原理](/basics/java-basic/bio-vs-nio-vs-aio.md)、netty
+同步、异步
+
+阻塞、非阻塞
+
+Linux 5种IO模型
+
+BIO、NIO和AIO的区别、三种IO的用法与原理
+
+Netty
 
 #### Java反射与javassist
 
-[反射](/basics/java-basic/reflection.md)与工厂模式、 [反射有什么作用](/basics/java-basic/usage-of-reflection.md)
+反射与工厂模式
 
-[Class类](/basics/java-basic/Class.md)
+反射有什么作用
+
+Class类
 
 `java.lang.reflect.*`
 
 #### 动态代理
 
-[静态代理](/basics/java-basic/static-proxy.md)、[动态代理](/basics/java-basic/dynamic-proxy.md)
+静态代理
 
-[动态代理和反射的关系](/basics/java-basic/dynamic-proxy-vs-reflection.md)
+动态代理
 
-[动态代理的几种实现方式](/basics/java-basic/dynamic-proxy-implementation.md)
+动态代理和反射的关系
 
-[AOP](/basics/java-basic/aop-vs-proxy.md)
+动态代理的几种实现方式
+
+AOP
 
 #### 序列化
 
-[什么是序列化与反序列化](/basics/java-basic/serialize.md)、为什么序列化、[序列化底层原理](/basics/java-basic/serialize-principle.md)、[序列化与单例模式](/basics/java-basic/serialize-singleton.md)、protobuf、为什么说序列化并不安全
+什么是序列化与反序列化
+
+为什么序列化
+
+序列化底层原理
+
+序列化与单例模式
+
+为什么说序列化并不安全
+
+protobuf
 
 #### 注解
 
-[元注解](/basics/java-basic/meta-annotation.md)、[自定义注解](/basics/java-basic/custom-annotation.md)、Java中常用注解使用、注解与反射的结合
+元注解
 
-[如何自定义一个注解？](/basics/java-basic/create-annotation.md)
+自定义注解
 
-[Spring常用注解](/basics/java-basic/annotation-in-spring.md)
+Java中常用注解使用
+
+注解与反射的结合
+
+如何自定义一个注解？
+
+Spring常用注解
 
 #### JMS
 
@@ -191,13 +206,21 @@ apache集合处理工具类的使用、
 
 #### 泛型
 
-泛型与继承、类型擦除、[泛型中K T V E ？ object等的含义](/basics/java-basic/k-t-v-e.md)、泛型各种用法
+泛型与继承
 
-限定通配符和非限定通配符、上下界限定符extends 和 super
+类型擦除
 
-[List<Object>和原始类型List之间的区别?](/basics/java-basic/genericity-list.md)
+泛型中K、T、V、E、？、Object等的含义
 
-[List<?>和List<Object>之间的区别是什么?](/basics/java-basic/genericity-list-wildcard.md)
+泛型各种用法
+
+限定通配符和非限定通配符
+
+上下界限定符extends 和 super
+
+List<Object>和原始类型List之间的区别?
+
+List<?>和List<Object>之间的区别是什么?
 
 #### 单元测试
 
@@ -213,13 +236,21 @@ junit、mock、mockito、内存数据库（h2）
 
 #### API&SPI
 
-API、[API和SPI的关系和区别](/basics/java-basic/api-vs-spi.md)
+API
 
-[如何定义SPI](/basics/java-basic/create-spi.md)、[SPI的实现原理](/basics/java-basic/spi-principle.md)
+API和SPI的关系和区别
+
+如何定义SPI
+
+SPI的实现原理
 
 #### 异常
 
-异常类型、正确处理异常、自定义异常
+异常类型
+
+正确处理异常
+
+自定义异常
 
 Error和Exception
 
@@ -285,7 +316,11 @@ String、Integer、Long、Enum、BigDecimal、ThreadLocal、ClassLoader & URLCla
 
 #### 线程安全
 
-[死锁？](/basics/java-basic/deadlock-java-level.md)、死锁如何排查、线程安全和内存模型的关系
+死锁？
+
+死锁如何排查
+
+线程安全和内存模型的关系
 
 #### 锁
 
@@ -301,7 +336,7 @@ CAS、乐观锁与悲观锁、数据库相关锁机制、分布式锁、偏向�
 
 #### synchronized
 
-[synchronized是如何实现的？](/basics/java-basic/synchronized.md)
+synchronized是如何实现的？
 
 synchronized和lock之间关系、不使用synchronized如何实现一个线程安全的单例
 
@@ -785,9 +820,7 @@ redis、memcached
 
 基本概念、常见用法
 
-#### Solr，Lucene，ElasticSearch
-
-在linux上部署solr，solrcloud，，新增、删除、查询索引
+#### Lucene，ElasticSearch
 
 #### Storm，流式计算，了解Spark，S4
 
@@ -857,7 +890,7 @@ http://dubbo.apache.org/zh-cn/
 
 #### 分布式文件系统
 
-mfs、fastdfs
+glusterfs
 
 #### 分布式缓存
 
@@ -931,11 +964,11 @@ DNS原理、DNS的设计
 
 ### 云计算
 
-IaaS、SaaS、PaaS、虚拟化技术、openstack、Serverlsess
+Serverlsess
 
 ### 搜索引擎
 
-Solr、Lucene、Nutch、Elasticsearch
+Lucene、Elasticsearch
 
 ### 权限管理
 
@@ -948,48 +981,3 @@ Shiro
 #### 比特币
 
 挖矿、共识机制、闪电网络、侧链、热点问题、分叉
-
-#### 以太坊
-
-#### 超级账本
-
-### 人工智能
-
-数学基础、机器学习、人工神经网络、深度学习、应用场景。
-
-#### 常用框架
-
-TensorFlow、DeepLearning4J
-
-### IoT
-
-### 量子计算
-
-### AR & VR
-
-### 其他语言
-
-Groovy、Python、Go、NodeJs、Swift、Rust
-
-## 六、 推荐书籍
-
-《深入理解Java虚拟机》 
-《Effective Java》 
-《深入分析Java Web技术内幕》 
-《大型网站技术架构》 
-《代码整洁之道》 
-《架构整洁之道》 
-《Head First设计模式》 
-《maven实战》 
-《区块链原理、设计与应用》 
-《Java并发编程实战》 
-《鸟哥的Linux私房菜》 
-《从Paxos到Zookeeper》 
-《架构即未来》
-
--------------
-
-扫描二维码，关注作者微信
-
-![](http://www.hollischuang.com/wp-content/uploads/2018/10/%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%BE%8E%E5%8C%96-1.png)
-
