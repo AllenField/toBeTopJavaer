@@ -2,15 +2,9 @@
 
 ![](https://img.shields.io/badge/version-v2.0.0-green.svg) ![](https://img.shields.io/badge/license-GPL-blue.svg)
 
-## 一、基础篇
-
-### 面向对象
-
-#### 什么是面向对象
+## 基础篇
 
 [什么是面向对象](docs/bacis/oop.md)
-
-面向对象的三大基本特征和五大基本原则
 
 #### 平台无关性
 
